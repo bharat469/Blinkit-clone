@@ -1,0 +1,3 @@
+export const ACTION_TYPE={
+    SAVE_USER_TOKEN:'SAVE_USER_TOKEN'
+}

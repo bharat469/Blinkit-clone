@@ -1,0 +1,3 @@
+export const ASYNC_SAVE_NAME={
+    USER_TOKEN:'USER_TOKEN'
+}
