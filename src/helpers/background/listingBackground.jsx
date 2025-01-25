@@ -1,12 +1,14 @@
-import {SafeAreaView, StatusBar, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StatusBar, StyleSheet, Text, Touchable, TouchableWithoutFeedback, View} from 'react-native';
 import React from 'react';
 import {COLORS} from '../constant/colors';
 import Cross from '../../assets/svg/cross.svg'
 import ProfileIcon from '../../assets/svg/profileIcon.svg'
 import { FONT_FAMILY, FONT_SIZE } from '../constant/fontSize';
+import { useNavigation } from '@react-navigation/native';
 
 const ListingBackground = props => {
   const {children} = props;
+  const navigation = useNavigation()
   return (
     <SafeAreaView style={styles.listingBackgroundStyle}>
       <StatusBar
@@ -19,7 +21,10 @@ const ListingBackground = props => {
           <Text style={styles.headerText}>Delivery in</Text>
           <View style={styles.innerContainer}>
           <Text style={styles.headerSubHeading}>8 Minute  </Text>
-          <Cross width={26} height={26}/>
+          <TouchableWithoutFeedback onPress={()=>navigation.goBack()} >
+          <Cross width={26} height={26} />
+          </TouchableWithoutFeedback>
+
           </View>
         </View>
         <ProfileIcon width={50} height={50}/>

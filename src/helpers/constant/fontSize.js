@@ -39,5 +39,6 @@ export const FONT_SIZE = {
     MontserratExtraBold:'Montserrat-ExtraBold',
     MontserratLight:'Montserrat-Light',
     MontserratSemiBold:'Montserrat-SemiBold',
-    MontserratRegular:'Montserrat-Regular'
+    MontserratRegular:'Montserrat-Regular',
+    MontserratBoldItalic:'Montserrat-BoldItalic'
   }

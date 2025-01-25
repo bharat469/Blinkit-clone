@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 200 200">
+  <!-- Plate -->
+  <circle cx="100" cy="100" r="95" fill="#f5f5f5" stroke="#d3d3d3" stroke-width="5" />
+  
+  <!-- Fried Egg White -->
+  <ellipse cx="75" cy="75" rx="50" ry="40" fill="white" />
+  
+  <!-- Fried Egg Yolk -->
+  <circle cx="75" cy="75" r="20" fill="#ffd700" />
+  
+  <!-- Toast -->
+  <rect x="110" y="50" width="60" height="40" rx="8" fill="#d2b48c" stroke="#a67c52" stroke-width="3" />
+  
+  <!-- Sausage -->
+  <ellipse cx="80" cy="140" rx="50" ry="15" fill="#b5651d" stroke="#8b4513" stroke-width="3" />
+  
+  <!-- Coffee Cup -->
+  <circle cx="140" cy="150" r="25" fill="#d2b48c" stroke="#a67c52" stroke-width="3" />
+  <circle cx="140" cy="150" r="15" fill="#8b4513" />
+</svg>

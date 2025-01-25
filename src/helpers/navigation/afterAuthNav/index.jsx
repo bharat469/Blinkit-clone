@@ -9,7 +9,7 @@ const AfterAuthNav = () => {
     const afterAuthContainer=createNativeStackNavigator() 
   return (
   <afterAuthContainer.Navigator>
-    <afterAuthContainer.Screen name={ROUTE_NAME.homeScreen} component={HomeScreen} />
+    <afterAuthContainer.Screen name={ROUTE_NAME.homeScreen} component={HomeScreen} options={{headerShown:false}}/>
     <afterAuthContainer.Screen name={ROUTE_NAME.listingScreen} component={ListingPage} options={{headerShown:false}} />
   </afterAuthContainer.Navigator>
   )

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 200 200">
+  <!-- Basket -->
+  <ellipse cx="100" cy="150" rx="70" ry="20" fill="#d2b48c" stroke="#8b4513" stroke-width="4" />
+  <rect x="40" y="120" width="120" height="30" fill="#d2b48c" stroke="#8b4513" stroke-width="4" />
+
+  <!-- Apple -->
+  <circle cx="80" cy="110" r="15" fill="#ff4d4d" />
+  <rect x="77" y="90" width="6" height="10" fill="#8b4513" />
+  <path d="M82,90 C84,88 86,88 87,90" fill="none" stroke="#228B22" stroke-width="2" />
+
+  <!-- Banana -->
+  <path d="M110,110 Q120,100 130,110 Q120,120 110,110" fill="#ffe135" stroke="#ffcc00" stroke-width="2" />
+
+  <!-- Grapes -->
+  <circle cx="60" cy="120" r="8" fill="#6a0dad" />
+  <circle cx="67" cy="125" r="8" fill="#6a0dad" />
+  <circle cx="53" cy="125" r="8" fill="#6a0dad" />
+  <circle cx="60" cy="132" r="8" fill="#6a0dad" />
+
+  <!-- Orange -->
+  <circle cx="120" cy="100" r="15" fill="#ffa500" />
+  <path d="M115,90 Q120,85 125,90" fill="none" stroke="#228B22" stroke-width="2" />
+
+  <!-- Leaf (decoration) -->
+  <path d="M80,80 Q90,70 100,80" fill="none" stroke="#228B22" stroke-width="4" />
+</svg>

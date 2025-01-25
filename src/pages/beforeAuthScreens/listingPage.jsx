@@ -8,7 +8,9 @@ import { FONT_FAMILY, FONT_SIZE } from '../../helpers/constant/fontSize'
 
 const {width,height}= Dimensions.get('window')
 
-const ListingPage = () => {
+const ListingPage = (props) => {
+    const {categories}=props?.route?.params
+    console.log('jasd',props)
     const _renderData=({item,index})=>{
         return(
             <View style={styles.cardContainer}>
@@ -28,7 +30,7 @@ const ListingPage = () => {
  <ListingBackground>
     <View style={styles.headerView}>
         <View style={styles.underLine} />
-        <Text style={styles.groceriesText}>Groceries Items</Text>;
+        <Text style={styles.groceriesText}>{categories}</Text>
     </View>
     <FlatList
     data={ProductApi}

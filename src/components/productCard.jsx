@@ -29,8 +29,8 @@ const ProductCard = ({product}) => {
       <View style={styles.productDetails}>
         <Text
           style={styles.productName}
-          numberOfLines={1} // Limits text to one line
-          ellipsizeMode="tail" // Truncates with "..." if text overflows
+          numberOfLines={1} 
+          ellipsizeMode="tail" 
         >
           {product.ProductName}
         </Text>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 200 200">
+  <!-- Milk Bottle Body -->
+  <rect x="70" y="50" width="60" height="100" rx="10" fill="#ffffff" stroke="#3D3D3D" stroke-width="3" />
+  
+  <!-- Milk inside -->
+  <rect x="73" y="55" width="54" height="90" rx="8" fill="#E0FFFF" />
+
+  <!-- Bottle Neck -->
+  <rect x="85" y="30" width="30" height="20" rx="5" fill="#ffffff" stroke="#3D3D3D" stroke-width="3" />
+
+  <!-- Cap -->
+  <rect x="85" y="25" width="30" height="10" rx="3" fill="#3D3D3D" />
+
+  <!-- Milk Label -->
+  <rect x="75" y="100" width="50" height="25" rx="5" fill="#3D3D3D" />
+  <text x="100" y="118" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#ffffff">Milk</text>
+</svg>
